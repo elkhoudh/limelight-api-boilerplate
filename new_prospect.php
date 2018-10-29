@@ -12,7 +12,7 @@ $zip = $_REQUEST['zip'];
 $phone = $_REQUEST['phone'];
 $email = $_REQUEST['email'];
 
-$api_client = new LimeLight_Client('reliefhempoil', 'mbV2d39UK8VzjF', 'https://digittopia.limelightcrm.com/admin/');
+$api_client = new LimeLight_Client('LIMELIGHT_API_USERNAME', 'LIMELIGHT_API_PASSWORD', 'LIMELIGHT_API_LINK');
 
 $parameters    = array(
   'firstName'  => $firstName,
